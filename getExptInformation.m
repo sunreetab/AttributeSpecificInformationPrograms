@@ -1,8 +1,7 @@
 function [expDates,protocolNames] = getExptInformation(monkeyName,protocolType)
 % Gives the experiment dates and protocol names for associated monkey name
-% (alpaH and kesariH) and protocol type (FlickeringGratings and
-% NaturalImages).
-% Vidhi 6/11/2021
+% (alpaH and kesariH) and protocol type (FlickeringGratings and NaturalImages).
+
 if strcmp(monkeyName,'alpaH')
     if strcmp(protocolType,'FlickeringGratings')
         expDates{1} = '290817'; protocolNames{1} = 'GRF_001';
