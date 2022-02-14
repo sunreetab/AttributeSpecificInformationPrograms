@@ -1,7 +1,7 @@
 function [expDates,protocolNames,stimVars,icats] = getCategoryInformation(monkeyName,protocolType,Category)
-%Gives the experiment dates and  protocol names for an associated category
-%of stimuli for each dataset.
-% Vidhi - 03/12/2021
+% Gives the experiment dates and  protocol names for an associated category
+% of stimuli for each dataset. 
+
 if strcmp(monkeyName,'alpaH')
     if strcmp(protocolType,'FlickeringGratings')
         if strcmp(Category,'Contrast100')
